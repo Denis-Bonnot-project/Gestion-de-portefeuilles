@@ -44,7 +44,7 @@ OC | Oblig. convertible
 
 #### GRAPHIQUE:
 
-![Graphique](/images/graphique.jpg)
+![Graphique](/images/graphique.png)
 
 
 
