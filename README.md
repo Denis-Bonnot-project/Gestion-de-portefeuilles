@@ -22,22 +22,22 @@ On supposera pour ne pas compliquer qu'il n'y a que des valeurs françaises, qu'
 
 #### LISTE DES MARCHÉS
 
-COOE | LIBELLE
+CODE | LIBELLÉ
 --- | ---
-RM | Marché à Réglement mensuel
+RM | Marché à règlement mensuel
 T | Marché au comptant
-SM | Second Marché
+SM | Second marché
 HC | Hors-cote
 ... | ...   
 
 
-#### LISTE DES CATEGORfES DE VALEURS
+#### LISTE DES CATÉGORIES DE VALEURS
 
-COOE | LIBELLE
+CODE | LIBELLÉ
 --- | ---
 AC | Action
 OB | Obligation
-TP | Titre Participatif
+TP | Titre participatif
 OC | Oblig. convertible
 ... | ...   
 
@@ -57,13 +57,13 @@ ADRESSE		: 5 Rue Monge, 75005 Paris
 
 ###### TITRES
 
-| 	CODE	 | 	DESIGNATION	 | 	MARCHE	 | 	CATEG	 | QUANTITE EN PORTEFEUILLE | COURS | MONTANT | 
+| 	CODE	 | 	DÉSIGNATION	 | 	MARCHÉ	 | 	CATÉGORIE	 | QUANTITÉ EN PORTEFEUILLE | COURS | MONTANT | 
 | 	 :---: 	 | 	   --- 	     | 	 :---: 	 | 	 :---: 	 | 	             :---: 	    |  ---: |  ---:   | 
 | 	017	 | 	Air liquide	 | 	RM	 | 	AC	 | 	10	 | 	630	 | 	6300	 | 
 | 	042	 | 	Casino	 | 	RM	 | 	AC	 | 	20	 | 	1000	 | 	20000	 | 
 | 		 | 		 | 		 | 		 | 		 | 		 | 		 | 
 | 		 | 		 | 		 | 		 | 		 | 	**TOTAL PORTEFEUILLE**	 | 	26300	 | 
-| 		 | 		 | 		 | 		 | 		 | 	**LIQUIDITES**	 | 	4000,12	 | 
+| 		 | 		 | 		 | 		 | 		 | 	**LIQUIDITÉS**	 | 	4000,12	 | 
 | 		 | 		 | 		 | 		 | 		 | 	**TOTAL**	 | 	30300,12	 | 
 
 
@@ -78,7 +78,7 @@ ADRESSE		: 5 Rue Monge, 75005 Paris
 
 ###### TITRES
 
-| 	CODE	 | 	DESIGNATION	 | 	MARCHE	 | 	CATEG	 | ACHAT | VENTE | DATE | COURS | MONTANT | 
+| 	CODE	 | 	DÉSIGNATION	 | 	MARCHÉ	 | 	CATÉGORIE	 | ACHAT | VENTE | DATE | COURS | MONTANT | 
 | 	 :---: 	 | 	 :--- 	     | 	 :---: 	 | 	 :---: 	 | :---: | :---: | :---:| ---:  |  ---:   | 
 | 	042	 | 	Casino	 | 	RM	 | 	AC	 | 			 | 	10		 | 	02/01/2017	 | 	1100	 | 	11000	 | 
 | 	017	 | 	Air liquide	  |	RM	 | 	AC	 | 	5		 | 		 | 	03/01/2017	 | 	650	 | 	3250	 | 
@@ -107,7 +107,7 @@ LIBCAT	 |libellé catégorie | 	A	 | 	30	 | 	élémentaire   signalétique	 |
 CODTITRE | 	code titre      | 	A	 | 	4	 | 	élémentaire   signalétique	 | 
 LIBTITRE | 	libellé titre   | 	A	 | 	30	 | 	élémentaire   signalétique	 | 	 
 COURS	 | 	cours titre     | 	N	 | 	8	 | 	élémentaire   situation      | 	
-JJMMAAA	 | 	date d’emprunt	| 	N	 | 	8	 | 	élémentaire   signalétique	 | 	date plausible
+JJMMAAA	 | 	date d'emprunt	| 	N	 | 	8	 | 	élémentaire   signalétique	 | 	date plausible
 IDCLI	 |identifiant client| 	N	 | 	3	 | 	élémentaire   signalétique	 | 	
 NOM	     | 	nom client	    | 	A	 | 	30	 | 	élémentaire   signalétique	 | 	
 RUE	     | 	rue 	        | 	A	 | 	30	 | 	élémentaire   signalétique	 | 	
@@ -121,12 +121,12 @@ SENS	 | 	achat ou vente  | 	A	 | 	1	 | 	élémentaire   mouvement 	 | 	A ou V
 
 
 
-#### 2. Modèle Conceptuel des Données (MCD)
+#### 2. Modèle conceptuel des données (MCD)
 ![MCD](/images/MCD.jpg)
 
 
 
-#### 3. Modèle logique des Données (MLD)
+#### 3. Modèle logique des données (MLD)
 ![MLD](/images/MLD.jpg)
 
 
